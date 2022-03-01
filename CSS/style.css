@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+@media (max-width: 768px) {
+    .d-flex {
+        flex-direction: column;
+    }
+    .mb-3 {
+        margin-top: 1rem!important;
+    }
+}
+
+@media (max-width: 420px) {
+    .justify-content-end {
+        justify-content: flex-start !important;
+    }
+}
+
+.btn-dark:hover {
+    background-color: #fff;
+    color: #151112;
+}
